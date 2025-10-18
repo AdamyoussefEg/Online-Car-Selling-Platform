@@ -1,0 +1,18 @@
+# Python Environment
+.venv
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/IDE Artifacts
+.DS_Store
+.vscode/
+
+# Django specific
+*.sqlite3
+/media
+/staticfiles
+
+# The file that was causing the problem (remove or comment it out)
+# * ```

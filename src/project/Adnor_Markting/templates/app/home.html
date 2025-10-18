@@ -1,0 +1,76 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+{% block banner_slider %}
+    <div id="carouselExample" class="carousel slide" data-bs-ride='carousel'>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100" alt="banner image">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'app/images/banner/b2.jpg' %}" class="d-block w-100" alt="banner image">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'app/images/banner/b3.jpg' %}" class="d-block w-100" alt="banner image">
+          </div>
+          <div class="carousel-item">
+            <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="banner image">
+          </div>
+        </div>
+    </div>
+{% endblock banner_slider %}
+
+{% block information %}
+<div class='container'>
+    <div class='row bg-success text-center p-5 text-white border-bottom shadow'>
+        <h1>Products</h1>
+        {% comment %} <small></small> {% endcomment %}
+        <small>Dodla offers a wide range of products in both liquid milk and by-product categories. The liquid milk comprises of 5 types of variants and the by-product comprises of 14 types of variants.
+
+        Dodal offers a wide of milk products compirsing of Fresh Milk, 
+        Butter, Ghee, Panner, Curd, Flavoured Milk, Doodh Peda, Ice Cream and Skimmed Milk Powder.</small>
+    </div>
+</div>
+{% endblock information %}
+{% block main-content %}
+    <div class='container'>
+        {% comment %} <h1>Welcome Adnor Products sitel.....</h1> {% endcomment %}
+        <h2 class='text-center'>Dairy Products</h2>
+        <br><br/>
+        <div class='row container'>
+            <div class='col-md-4 col-sm-4 mi-go wow fadeInUp' data-wow-duration='1s' data-wow-delay = '0.6s' style='animation-duration: 1s; animation-delay: 0.6s;animation-name: none;'>
+                <div class='goodnesssec buttermilk smbg'>
+                    <a href="{% url 'category' 'SC' %}">
+                        <div class='goodnessseccont text-center'>
+                            <img src="{% static 'app/images/Porsche 911 GT3.jpg' %}" class='img-responsive center-block' alt="">{% comment %} the img will be changed {% endcomment %}
+                            <p class='mlkpro'>Sports Cars</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class='col-md-4 col-sm-4 mi-go wow fadeInUp' data-wow-duration='1s' data-wow-delay = '0.6s' style='animation-duration: 1s; animation-delay: 0.6s;animation-name: none;'>
+                <div class='goodnesssec smbg'>
+                    <a>
+                        <div>
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class='col-md-4 col-sm-4 mi-go wow fadeInUp' data-wow-duration='1s' data-wow-delay = '0.6s' style='animation-duration: 1s; animation-delay: 0.6s;animation-name: none;'>
+                <div class='goodnesssec buttermilk curdbgpro'>
+                    <a href="{% url 'category' 'EVs' %}">
+                        <div class='goodnessseccont text-center'>
+                            <img src="{% static 'app/images/LUCID_AIR_PURE_PLAZA.jpg' %}" class='img-responsive center-block' alt="">{% comment %} the img will be changed {% endcomment %}
+                            <p class='mlkpro'>Luxury Electric</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br/>
+{% endblock main-content %}
+
+
