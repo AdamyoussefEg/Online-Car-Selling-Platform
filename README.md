@@ -63,9 +63,9 @@ python manage.py runserver
 
 
 ### 🚧 Known Issues
-https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png
+###https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png
 ### ❌ Payment system not working:
-Clicking the payment button only refreshes the page instead of proceeding to a payment method or confirmation page.
+###Clicking the payment button only refreshes the page instead of proceeding to a payment method or confirmation page.
 
 ###🕒 This issue will be fixed in future updates.
 
@@ -80,3 +80,4 @@ Clicking the payment button only refreshes the page instead of proceeding to a p
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc8.png)
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc9.png)
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc10.png)
+---
