@@ -53,13 +53,14 @@ class Product(models.Model):
     description = models.TextField()
     composition = models.TextField(default='')
     prodapp = models.TextField(default='')
-    category = models.CharField(choices=CATEGORY_CHOICES, max_length=3)
+    category = models.CharField(choices=CATEGORY_CHOICES, max_length=2)
     product_image = models.ImageField(upload_to='product')
     def __str__(self):
         return self.title
     
 class Customer(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    # user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="customer")
     name = models.CharField(max_length=200)
     locality = models.CharField(max_length=200)
     city = models.CharField(max_length=50)
@@ -71,6 +72,7 @@ class Customer(models.Model):
 
 class Cart(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    # cart_id = models.UUIDField(default=uuid.uuid4, editable=models.CASCADE, null=True, blank=True)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default = 1)
     
@@ -110,3 +112,13 @@ class OrderPlaced(models.Model):
 class Wishlist(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+
+class Review(models.Model):
+    product = models.ForeignKey("Product", on_delete=models.CASCADE, related_name = "reviews")
+    date_created = models.DateTimeField(auto_now_add=True)
+    description = models.TextField(default="description")
+    name = models.CharField(max_length=50)
+    
+    def __str__(self):
+        return self.description
