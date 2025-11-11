@@ -19,11 +19,11 @@
                     <div class='card-body'>
                         <h5>Product: {{item.product.title}}</h5>
                         <p>Quantity: {{item.quantity}}</p>
-                        <p class='fw-bold'>Price: {{item.product.discounted_price}}</p>
+                        <p class='fw-bold'>Price: ₹{{item.product.discounted_price}}</p>
                     </div>
                 </div>
             {% endfor %}
-            <p><strong>Total Cost + 40 = {{totalamount}}</strong></p>
+            <p><strong>Total Cost + ₹40 = ₹{{totalamount}}</strong></p>
             <small>Terms and Conditions: Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
         </div>
 
@@ -60,3 +60,34 @@
 </div>
 {% endblock main-content %}
 
+{% block payment-gateway %}
+<script>
+var options = {
+    "key": "rzp_test_2TUHCJnGDCobwu", // Use Django variable from view
+    "amount": "{{ razoramount }}",
+    "currency": "INR",
+    "name": "Mavericks",
+    "description": "Adnor Product",
+    "order_id": "{{ order_id }}",
+    "handler": function (response){
+        console.log('Payment success');
+        var form = document.getElementById('myform');
+        window.location.href = `http://localhost:8000/paymentdone?order_id=${response.razorpay_order_id}&payment_id=${response.razorpay_payment_id}&cust_id=${form.elements["custid"].value}`;
+    },
+    "theme": {
+        "color": "#3399cc"
+    }
+};
+
+var rzp1 = new Razorpay(options);
+rzp1.on('payment.failed', function (response){
+    alert(response.error.description);
+});
+
+document.getElementById('rzp-button1').onclick = function(e){
+    console.log('button click');
+    rzp1.open();
+    e.preventDefault();
+}
+</script>
+{% endblock payment-gateway %}

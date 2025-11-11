@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{% static 'app/css/owl.carousel.min.css' %}">
     <link rel="stylesheet" href="{% static 'app/css/all.min.css' %}">
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-    <title> Adnor Products | {% block title %}{% endblock title %} </title>
+    <title> Dairy Products | {% block title %}{% endblock title %} </title>
 </head>
 <body>
     
@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 {% comment %} <img src="{% static 'app/images/Logo.jpg' %}" width='70' height='50'/> {% endcomment %}
-                <img src="{% static 'app/images/Adnor.png' %}" width='70' height='50'/>
+                <img src="{% static 'app/images/Neel.png' %}" width='70' height='50'/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,9 +38,14 @@
                         </a>
                         <ul class="dropdown-menu">
                             {% comment %} <li><a class="dropdown-item" href="#">Sanwar devices</a></li> {% endcomment %}
-                            <li><a class="dropdown-item" href="{% url 'category' 'SC' %}">Sports Cars</a></li>
-                        <li><a class="dropdown-item" href="{% url 'category' 'EVs' %}">Luxury Electric</a></li>
-
+                            <li><a class="dropdown-item" href="{% url 'category' 'ML' %}">Milk</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'CR' %}">Curd</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'MS' %}">Milkshake</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'LS' %}">Lassi</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'GH' %}">Ghee</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'PN' %}">Paneer</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'CZ' %}">Cheese</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'IC' %}">Ice-Cream</a></li>
                     </ul>
                 </li>
                     <li class="nav-item">
@@ -50,9 +55,9 @@
                         <a class="nav-link text-white" href="{% url 'contact' %}">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex" role="search" action='/search'>
+                    <input class="form-control me-2" type="search" placeholder="Search" name='search' aria-label="Search"/>
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
                 </form>
             </div>
 
@@ -69,6 +74,9 @@
                 <li class='nav-item mx-2'>
                     <a href="{% url 'showcart' %}" class='nav-link text-white'><span class='badge bg-danger'>{% if totalitem > 0 %} {{totalitem}} {% endif %}</span> Cart</a>
                 </li>
+                <li class='nav-item mx-2'>
+                    <a href="{% url 'showwishlist' %}" class='nav-link text-white'><span class='badge bg-danger'>{% if wishitem > 0 %} {{wishitem}} {% endif %}</span>  <i class='fa fa-heart'></i></a>
+                </li>
                 {% else %}
                 <li class='nav-item mx-2'>
                     <a href="{% url 'login' %}" class='nav-link text-white'>Login</a>
@@ -84,9 +92,10 @@
     {% block banner_slider %}{% endblock banner_slider %}
     {% block information %}{% endblock information %}
     {% block main-content %}{% endblock main-content %}
+    {% block payment-gateway %}{% endblock payment-gateway %}
     
     <footer class='container-fluid fixed-bottom bg-success text-center p-2 mt-5'>
-        Copyright : 2025 || Made by : Adam youssef
+        Copyright : 2025 || Devolped by : Adnor
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
