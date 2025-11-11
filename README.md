@@ -3,7 +3,7 @@
 A **Django-based full-stack web application** for selling cars online.  
 Users can browse, view, and purchase cars.  
 
-⚠️ **Note:** The payment system is *not functional yet* — clicking the payment button only refreshes the page instead of completing the process.
+⚠️ **Note:** Add your payment code in settings and the checkout in Adnor_Marketing 
 
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png)
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc2.png)
@@ -83,14 +83,6 @@ python manage.py runserver
 ###Then open your browser and visit:
 
 http://127.0.0.1:8000/
-
----
-
-###🚧 Known Issues
-
-### ❌ Payment system not functional yet:
-### Clicking the payment button only refreshes the page instead of proceeding to a payment method or confirmation page.
-### 🕒 This issue will be fixed in future updates.
 
 ---
 
