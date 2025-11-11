@@ -60,6 +60,7 @@ git clone https://github.com/AdamyoussefEg/Online-Car-Selling-Platform.git
 cd Online-Car-Selling-Platform
 
 ### 2️⃣ Create a virtual environment
+```bash
 python -m venv venv
 # On macOS/Linux
 source venv/bin/activate
@@ -67,13 +68,16 @@ source venv/bin/activate
 venv\Scripts\activate
 
 ### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
 
 ### 4️⃣ Apply database migrations
+```bash
 python manage.py makemigrations
 python manage.py migrate
 
 ### 5️⃣ Run the development server
+```bash
 python manage.py runserver
 
 
