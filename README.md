@@ -7,15 +7,6 @@ Users can browse, view, and purchase cars.
 
 ![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc1.png)
 
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc2.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc3.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc4.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc5.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc6.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc7.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc8.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc9.png)
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc10.png)
 ---
 
 ## 🏁 Overview
@@ -35,7 +26,17 @@ Most site features are functional, but the **payment integration** will be added
 - 📄 View detailed car descriptions and specifications  
 - 🛒 Add cars to the cart and go to checkout  
 - 🔐 User registration and login  
-- ⚠️ Payment page exists but is not functional yet  
+- ⚠️ Payment page exists but is not functional yet
+- 
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc2.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc3.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc4.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc5.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc6.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc7.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc8.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc9.png)
+![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc10.png)
 
 ---
 
