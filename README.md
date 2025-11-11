@@ -5,7 +5,7 @@ Users can browse, view, and purchase cars.
 
 ⚠️ **Note:** The payment system is *not functional yet* — clicking the payment button only refreshes the page instead of completing the process.
 
-![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc1.png)
+![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc10.png)
 
 ---
 https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png
