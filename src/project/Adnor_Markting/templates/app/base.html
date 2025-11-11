@@ -71,10 +71,10 @@
                 </li>
                 {% else %}
                 <li class='nav-item mx-2'>
-                    <a href="{% url 'login' %}" class='nav-link text-white'>Login</a>
+                    <a href="{% url 'showwishlist' %}" class='nav-link text-white'><span class='badge bg-danger'>{% if wishitem > 0 %} {{wishitem}} {% endif %}</span>  <i class='fa fa-heart'></i></a>
                 </li>
                 <li class='nav-item mx-2'>
-                    <a href="{% url 'showwishlist' %}" class='nav-link text-white'><span class='badge bg-danger'>{% if wishitem > 0 %} {{wishitem}} {% endif %}</span>  <i class='fa fa-heart'></i></a>
+                    <a href="{% url 'login' %}" class='nav-link text-white'>Login</a>
                 </li>
                 <li class='nav-item mx-2'>
                     <a href="{% url 'customerregistration' %}" class='nav-link text-white'>Registration</a>
