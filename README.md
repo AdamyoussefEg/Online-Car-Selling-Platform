@@ -1,9 +1,12 @@
 # 🚗 AutoMart — Online Car Selling Platform
+![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png)
 
 A Django-based full-stack web application for selling cars online.  
 Users can browse, view, and purchase cars.  
 ⚠️ Note: The payment system is **not functional yet** — clicking the payment button only refreshes the page instead of completing the process.
 
+GymMaster Preview](https://raw.githubusercontent.com/AdamyoussefEg/GymMaster/main/public/screenshot.png)
+*(Replace the image above with your actual screenshot)*
 ---
 
 ## 🏁 Overview
@@ -68,6 +71,7 @@ Clicking the payment button only refreshes the page instead of proceeding to a p
 
 🕒 This issue will be fixed in future updates.
 
+---
 <img width="1920" height="1080" alt="image" src="https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5971e999-5046-463e-8a04-7779e704028e" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c6f3b28-3254-4b50-9427-cb47653d509e" />
