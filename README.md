@@ -68,7 +68,7 @@ Clicking the payment button only refreshes the page instead of proceeding to a p
 
 🕒 This issue will be fixed in future updates.
 
-<img width="1920" height="1080" alt="image" src="[https://github.com/user-attachments/assets/4bfbe390-c1ec-4e31-b4e4-9f9799babb3c](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.pnghttps://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png)" />
+<img width="1920" height="1080" alt="image" src="https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.pnghttps://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5971e999-5046-463e-8a04-7779e704028e" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6c6f3b28-3254-4b50-9427-cb47653d509e" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09c132e2-255d-439a-9b32-77bf6f56a9cc" />
