@@ -59,7 +59,7 @@ Follow these steps to set up and run the project locally:
 git clone https://github.com/AdamyoussefEg/Online-Car-Selling-Platform.git
 cd Online-Car-Selling-Platform
 
-### 2️⃣ 𝗖𝗿𝗲𝗮𝘁𝗲 𝗮 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁
+## 2️⃣ 𝗖𝗿𝗲𝗮𝘁𝗲 𝗮 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁
 ```bash
 python -m venv venv
 # On macOS/Linux
