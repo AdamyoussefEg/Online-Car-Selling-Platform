@@ -8,6 +8,7 @@ Users can browse, view, and purchase cars.
 ![AutoMart Preview](https://raw.githubusercontent.com/AdamyoussefEg/Online-Car-Selling-Platform/main/src/project/app_images/sc1.png)
 
 ---
+https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png
 
 ## 🏁 Overview
 
