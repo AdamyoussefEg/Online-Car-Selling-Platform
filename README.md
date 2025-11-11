@@ -5,6 +5,10 @@ Users can browse, view, and purchase cars.
 
 ⚠️ **Note:** Add your payment code in settings and the checkout in Adnor_Marketing 
 
+# To Test 
+# U: Dimo
+# P: Dimo123456
+
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc1.png)
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc2.png)
 ![AutoMart Preview](https://github.com/AdamyoussefEg/Online-Car-Selling-Platform/blob/main/src/project/app_images/sc3.png)
