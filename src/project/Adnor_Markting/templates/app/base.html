@@ -69,10 +69,10 @@
                 <li class='nav-item mx-2'>
                     <a href="{% url 'showcart' %}" class='nav-link text-white'><span class='badge bg-danger'>{% if totalitem > 0 %} {{totalitem}} {% endif %}</span> Cart</a>
                 </li>
-                {% else %}
                 <li class='nav-item mx-2'>
                     <a href="{% url 'showwishlist' %}" class='nav-link text-white'><span class='badge bg-danger'>{% if wishitem > 0 %} {{wishitem}} {% endif %}</span>  <i class='fa fa-heart'></i></a>
                 </li>
+                {% else %}
                 <li class='nav-item mx-2'>
                     <a href="{% url 'login' %}" class='nav-link text-white'>Login</a>
                 </li>
