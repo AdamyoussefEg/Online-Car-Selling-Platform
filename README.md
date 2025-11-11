@@ -59,7 +59,7 @@ Follow these steps to set up and run the project locally:
 git clone https://github.com/AdamyoussefEg/Online-Car-Selling-Platform.git
 cd Online-Car-Selling-Platform
 
-### 2️⃣ Create a virtual environment
+### 2️⃣ 𝗖𝗿𝗲𝗮𝘁𝗲 𝗮 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗲𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁
 ```bash
 python -m venv venv
 # On macOS/Linux
@@ -67,7 +67,7 @@ source venv/bin/activate
 # On Windows
 venv\Scripts\activate
 
-### 3️⃣ Install dependencies
+### 3️⃣  𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀
 ```bash
 pip install -r requirements.txt
 
@@ -79,7 +79,6 @@ python manage.py migrate
 ### 5️⃣ Run the development server
 ```bash
 python manage.py runserver
-
 
 ###Then open your browser and visit:
 
