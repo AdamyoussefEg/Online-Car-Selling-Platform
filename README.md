@@ -25,7 +25,6 @@ Users can browse, view, and purchase cars.
 ## 🏁 Overview
 
 **AutoMart** simulates an online car marketplace where users can:
-- View available cars  
 - Explore detailed specifications  
 - Add cars to the cart and proceed to checkout  
 
@@ -50,7 +49,6 @@ Most site features are functional, but the **payment integration** will be added
 | **Backend** | Django, Django REST Framework |
 | **Frontend** | HTML, CSS, JavaScript |
 | **Database** | SQLite |
-| **Authentication** | Django Built-in Auth System |
 
 ---
 
