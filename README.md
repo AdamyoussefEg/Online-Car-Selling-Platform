@@ -34,7 +34,7 @@ Most site features are functional, but the **payment integration** will be added
 
 ## 🛠️ Features
 
-- 🏎️ Browse and search cars by brand, model, and price  
+- 🏎️ Browse and search cars by brand
 - 📄 View detailed car descriptions and specifications  
 - 🛒 Add cars to the cart and go to checkout  
 - 🔐 User registration and login  
