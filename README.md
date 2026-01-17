@@ -70,6 +70,7 @@ venv\Scripts\activate
 
 ### 3️⃣  𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀
 ```bash
+cd src\project
 pip install -r requirements.txt
 
 ### 4️⃣ Apply database migrations
