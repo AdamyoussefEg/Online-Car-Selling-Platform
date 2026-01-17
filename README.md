@@ -48,7 +48,6 @@ Most site features are functional, but the **payment integration** will be added
 |------------|-------------|
 | **Backend** | Django, Django REST Framework |
 | **Frontend** | HTML, CSS, JavaScript |
-| **Database** | SQLite |
 
 ---
 
